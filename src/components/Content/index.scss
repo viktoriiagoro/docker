@@ -1,0 +1,278 @@
+.content {
+    height: 400px;
+    padding: 0 30px;
+    margin-top: 31px;
+    .content-block-left {
+        width: 100%;
+        height: 340px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 17.0263px 37.4579px rgba(202, 214, 223, 0.3);
+    }
+    .content-profile-left {
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-name {
+        margin-top: 26px;
+        margin-left: 19px; 
+        font-size: 12px;
+        color:  #1C3349;  
+    }
+    .profile-photo {
+        background-color: #DBEDFE;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-right: 15px;
+        display: flex;
+    }
+    .img-pensil {
+        margin: auto;
+        text-align: center;
+    
+    }
+    .content-profile {
+        display: flex;
+        margin-top: 12px;
+    }
+    .content-profile-image {
+        background-color: #DBEDFE;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        margin-left: 17px;
+    }
+    .icon-profile {
+       color: #2688E3;
+       text-align: center;
+       font-size: 35px;
+       margin-top: 12px;
+    }
+    .info-user-name {
+        width: 96px;
+        height: 26px;
+        font-size: 14px;
+        color:  #647C9F;
+        margin-left: 19px;
+        margin-top: 17px;
+    }
+    .user-name {
+        color:  #1C3349;
+        font-weight: bold;
+        font-size: 14px;
+        width: 130px;
+        height: 26px;
+        font-family: Montserrat;
+        margin-top: 6px;
+    }
+    .name-had {
+        display: flex;
+        margin-top: 17px;
+        margin-left: 17px;
+    }
+    .name-teacher {
+        font-size: 12px;
+        font-weight: normal;
+        color: #647C9F;
+    }
+    .user-teacher {
+        font-size: 12px;
+        color: #2688E3;
+        font-family: Montserrat;
+        margin-left: 12px;
+    }
+    .had-button {
+        height: 115px;
+        display: flex;
+        align-items: flex-end;
+
+
+ 
+    }
+    .button-1 {
+        height: 50px;
+        border-radius: 5px;
+        background: linear-gradient(268.75deg, rgba(214, 52, 52, 0.55) 1.28%, rgba(238, 52, 117, 0.55) 97.88%), #DD3E77;
+        border: none;
+        margin: 0 19px;
+        width: 305px;
+    }
+    .btn {
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: Montserrat;
+    }
+    .content-block-right {
+        height: 340px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 17.0263px 37.4579px rgba(202, 214, 223, 0.3);
+    }
+    .content-profile-right {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    .info-right-finance {
+        font-size: 12px;
+        margin-top: 26px;
+        color: #1C3349;
+    }
+    .info-right-content {
+        font-size: 12px;
+        font-weight: normal;
+        color: #647C9F;
+        margin-top: 26px;
+    }
+    .profile-photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-profile-right-card {
+        display: flex;
+        margin-right: 30px;
+        margin-left: 18px;
+        margin-top: 12px;
+    }
+    .content-profile-right-card-left {
+        height: 244px;
+        background: linear-gradient(268.34deg, #1B93D7 5.18%, rgba(10, 75, 135, 0) 83.75%), #2688E3;
+        background-size: cover;
+        background-image: url(../../img/line.png);
+        background-position: 0 0, center;
+        // background-image: url(../../img/line-1.png);
+        border-radius: 10px;
+    }
+    .profile-expence {
+        display: flex;
+        margin-top: 20px;
+    }
+    .content-profile-wallet {
+        background-color: #DBEDFE;
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin-left: 17px;
+        display: flex;
+    }
+    .img-wallet {
+        margin: auto;
+        text-align: center;
+    }
+    .img-figure {
+        width: 87px;
+        height: 28px;
+        margin-top: 16px;
+        margin-left: 12px;
+    }
+    .wallet-expence {
+        font-family: Montserrat;
+        font-size: 18px;
+        margin-top: 36px;
+        margin-left: 12px;
+        color: #FFFFFF;
+        width: 87px;
+        height: 28px;
+       
+    }
+    .wallet-text-info {
+        color: #DBEDFE;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 231px;
+        height: 36px;
+    }
+    .button-right-wallet {
+        display: flex;
+        margin-top: 53px;
+    }
+    .button-left-right {
+        display: flex;
+        margin-right: 21px;
+    }
+    .button-left {
+        width: 137px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #91B920;
+        border: none;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .button-icon-plus {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .btn-left {
+        font-size: 12px;
+        width: 84px;
+        height: 68px;
+        font-family: Montserrat;
+        margin-top: 11px;
+        margin-left: 5px;
+        color: #FFFFFF;
+    }
+    .button-text-info {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: Montserrat;
+        margin-left: 5px;
+    }
+    .button-right {
+        width: 137px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #0D3371;
+        border: none;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .button-icon-minus {
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 27px;
+    }
+    .button-text-conclusion {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: Montserrat;
+        margin-left: 6px;
+    }
+    .content-profile-right-card-right {
+        width: 643px;
+        height: 245px;
+        background-color: #F3F7FA;
+        border-radius: 5px;
+        margin-left: 30px;
+    }
+    .icon-right-card {
+        text-align: center;
+        margin-top: 86px;
+        color: #647C9F;
+        font-size: 25px;
+        opacity: 0.3;
+    }
+    .wallet-2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .text-right-card {
+        text-align: center;
+        color: #647C9F;
+        height: 24px;
+        margin-top: 20px;
+        opacity: 0.3;
+        font-size: 12px;
+    }
+}
